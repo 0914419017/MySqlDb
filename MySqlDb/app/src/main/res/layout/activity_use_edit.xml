@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="5dp"
+    android:orientation="vertical"
+    tools:context=".UserAddActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/user"
+            android:textColor="@color/colorAccent"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/et_uname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/entry_userinfo"
+            android:textColor="@color/colorAccent"
+            android:textSize="20sp"
+            android:background="@null"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="密    码:"
+            android:textColor="@color/colorAccent"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/et_upass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/entry_userpass"
+            android:textColor="@color/colorAccent"
+            android:textSize="20sp"
+            android:background="@null"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_createDt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="创建时间:"
+        android:textColor="@color/colorAccent"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorAccent"
+        android:onClick="btn_ok_click"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="@string/entry"/>
+</LinearLayout>

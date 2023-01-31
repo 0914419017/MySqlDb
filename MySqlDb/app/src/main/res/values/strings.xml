@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">MySqlDb</string>
+    <string name="visit">安卓直接远程访问数据库</string>
+    <string name="Inquire">查询用户数量</string>
+    <string name="count">用户数量为：</string>
+    <string name="user">用户名：</string>
+    <string name="entry_pass">请输入用户密码</string>
+    <string name="entry_user">请输入用户名</string>
+    <string name="login">登录</string>
+    <string name="entry_userinfo">请填写用户名信息</string>
+    <string name="entry_userpass">请填写用户密码信息</string>
+    <string name="entry">确定</string>
+</resources>
